@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Loops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/SimpleAray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Loops.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,21 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/micha/IdeaProjects/kodilla-course/kodilla-intro/src/main/java/com/kodilla/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "onboarding.tips.debug.path": "C:/Users/micha/IdeaProjects/kodilla-course/untitled/src/main/java/com/kodilla/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
-}</component>
-  <component name="RunManager" selected="Application.Loops">
-    <configuration name="DebugExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DebugExample" />
+}]]></component>
+  <component name="RunManager" selected="Application.FirstClass">
+    <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstClass" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,12 +84,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kalkulator" />
+      <module name="kodilla-course.kodilla-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstClass" />
+        <item itemvalue="Application.kalkulator" />
         <item itemvalue="Application.Loops" />
         <item itemvalue="Application.SimpleAray" />
         <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.DebugExample" />
       </list>
     </recent_temporary>
   </component>
@@ -117,6 +129,11 @@
           <url>file://$PROJECT_DIR$/kodilla-intro/src/main/java/LeapYear.java</url>
           <line>10</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/main/java/com/kodilla/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
