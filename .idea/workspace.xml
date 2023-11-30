@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/sets/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/sets/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/sets/homework/Stamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/sets/homework/StampsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/lists/homework/CarsListApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/lists/homework/CarsListApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
     "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StampsApplication">
+  <component name="RunManager" selected="Application.CarsListApplication">
     <configuration name="CarsListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.lists.homework.CarsListApplication" />
       <module name="kodilla-course.kodilla-collections.main" />

@@ -4,6 +4,7 @@ import com.kodilla.collections.interfaces.homework.Car;
 import com.kodilla.collections.interfaces.homework.Ford;
 import com.kodilla.collections.interfaces.homework.Kia;
 import com.kodilla.collections.interfaces.homework.Opel;
+import com.kodilla.collections.arrays.homework.CarUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,13 +19,14 @@ public class CarsListApplication {
         cars.add(new Opel(100));
         cars.add(new Ford(155));
         cars.add(new Opel(125));
+        for (Car car : cars) {
+            CarUtils.describeCar(car);
+        }
 
         cars.remove(1);
         cars.remove(kia);
 
-        System.out.println(cars.size());
-        for (Car car:cars) {
-            System.out.println("Start! " + car.getSpeed()  );
-        }
+        System.out.println(cars.size() +" cars: " + cars);
+
     }
 }
