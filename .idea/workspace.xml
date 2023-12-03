@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/BookRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/ImmutableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/homework/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/homework/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/BasicMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/ComplexMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/Grades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/SchoolDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/lists/homework/CarsListApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/lists/homework/CarsListApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -59,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "onboarding.tips.debug.path": "C:/Users/micha/IdeaProjects/kodilla-course/kodilla-collections/src/main/java/com/kodilla/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/micha/IdeaProjects/kodilla-course/kodilla-collections-advanced/src/main/java/com/kodilla/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -67,13 +81,18 @@
     "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CarsListApplication">
-    <configuration name="CarsListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.lists.homework.CarsListApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.collections.adv.maps.complex" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ImmutableExample">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.immutable.homework.App" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.lists.homework.*" />
+          <option name="PATTERN" value="com.kodilla.collections.adv.immutable.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneralShapesListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.lists.GeneralShapesListApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
+    <configuration name="BasicMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.maps.BasicMapExample" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.lists.*" />
+          <option name="PATTERN" value="com.kodilla.collections.adv.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.sets.OrderApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
+    <configuration name="ComplexMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.maps.complex.ComplexMapExample" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.sets.*" />
+          <option name="PATTERN" value="com.kodilla.collections.adv.maps.complex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapesListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.lists.ShapesListApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
+    <configuration name="ImmutableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.immutable.ImmutableExample" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.lists.*" />
+          <option name="PATTERN" value="com.kodilla.collections.adv.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StampsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.sets.homework.StampsApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.Main" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.sets.homework.*" />
+          <option name="PATTERN" value="com.kodilla.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StampsApplication" />
-        <item itemvalue="Application.OrderApplication" />
-        <item itemvalue="Application.CarsListApplication" />
-        <item itemvalue="Application.GeneralShapesListApplication" />
-        <item itemvalue="Application.ShapesListApplication" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ImmutableExample" />
+        <item itemvalue="Application.ComplexMapExample" />
+        <item itemvalue="Application.BasicMapExample" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +205,11 @@
           <url>file://$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/interfaces/InterfacesDemo.java</url>
           <line>2</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
