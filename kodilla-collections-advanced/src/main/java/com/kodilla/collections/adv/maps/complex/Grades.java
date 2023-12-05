@@ -9,6 +9,9 @@ public class Grades {
     public Grades(List<Double> grades) {
         this.grades = grades;
     }
+    public Grades(Double... grades) {
+        this.grades = List.of(grades);
+    }
     public double getAverage() {
         double sum = 0.0;
         for (double grade : grades)
