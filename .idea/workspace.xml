@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/FlightFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/FlightRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/test/java/com/kodilla/collections/adv/exercises/homework/FlightFinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/UsersManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "onboarding.tips.debug.path": "C:/Users/micha/IdeaProjects/kodilla-course/kodilla-collections-advanced/src/main/java/com/kodilla/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/micha/IdeaProjects/kodilla-course/kodilla-stream/src/main/java/com/kodilla/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -90,13 +94,13 @@
       <recent name="com.kodilla.collections.adv.exercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FlightFinderTest">
-    <configuration name="SchoolDirectory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.maps.homework.SchoolDirectory" />
-      <module name="kodilla-course.kodilla-collections-advanced.main" />
+  <component name="RunManager" selected="Gradle.UsersManagerTest.testGetUsersWithMinPosts">
+    <configuration name="StreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.StreamMain" />
+      <module name="kodilla-course.kodilla-stream.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.adv.maps.homework.*" />
+          <option name="PATTERN" value="com.kodilla.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +108,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UsersManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.UsersManager" />
+      <module name="kodilla-course.kodilla-stream.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersManagerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -115,9 +132,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-collections-advanced:test" />
+            <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.dictionary.DictionaryTest&quot;" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,7 +145,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DictionaryTest.testFindEnglishWords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UsersManagerTest.testGetUsersOlderThan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -139,9 +156,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-collections-advanced:test" />
+            <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.dictionary.DictionaryTest.testFindEnglishWords&quot;" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest.testGetUsersOlderThan&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,7 +169,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="FlightFinderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UsersManagerTest.testGetUsersWithMinPosts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -163,33 +180,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-collections-advanced:test" />
+            <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.homework.FlightFinderTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="FlightFinderTest.testFindFlightsFrom" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-collections-advanced:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.homework.FlightFinderTest.testFindFlightsFrom&quot;" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest.testGetUsersWithMinPosts&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FlightFinderTest" />
-        <item itemvalue="Gradle.FlightFinderTest.testFindFlightsFrom" />
-        <item itemvalue="Application.SchoolDirectory" />
-        <item itemvalue="Gradle.DictionaryTest.testFindEnglishWords" />
-        <item itemvalue="Gradle.DictionaryTest" />
+        <item itemvalue="Gradle.UsersManagerTest.testGetUsersWithMinPosts" />
+        <item itemvalue="Application.StreamMain" />
+        <item itemvalue="Gradle.UsersManagerTest" />
+        <item itemvalue="Gradle.UsersManagerTest.testGetUsersOlderThan" />
+        <item itemvalue="Application.UsersManager" />
       </list>
     </recent_temporary>
   </component>
