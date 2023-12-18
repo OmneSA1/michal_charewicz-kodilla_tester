@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/exception/AirportRepositoryTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/exception/homework/WarehouseTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/NumberChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringManipulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/NumberCheckerTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringValidatorTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/UserValidatorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/exception/homework/WarehouseTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/exception/homework/WarehouseTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +60,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="GradleRunConfiguration" name="StringValidatorTestSuite" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -59,23 +73,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/micha/IdeaProjects/kodilla-course/kodilla-stream/src/main/java/com/kodilla/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "onboarding.tips.debug.path": "C:/Users/micha/IdeaProjects/kodilla-course/kodilla-advanced-tests/src/main/java/com/kodilla/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.kodilla.collections.adv.exercises.dictionary" />
@@ -85,26 +99,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.parametrized_tests.homework" />
+      <recent name="com.kodilla.parametrized_tests" />
       <recent name="com.kodilla.exception.homework" />
       <recent name="com.kodilla.exception" />
       <recent name="com.kodilla.collections.adv.exercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WarehouseTestSuite">
-    <configuration name="WarehouseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.homework.WarehouseApp" />
-      <module name="kodilla-course.kodilla-stream.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AirportRepositoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserValidatorTestSuite">
+    <configuration name="StringManipulatorTestSuite.shouldReverseStringWithLowerCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -115,9 +118,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.exception.AirportRepositoryTestSuite&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite.shouldReverseStringWithLowerCase&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,7 +131,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="AirportRepositoryTestSuite.testIsAirportInUse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringValidatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -139,9 +142,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.exception.AirportRepositoryTestSuite.testIsAirportInUse&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.StringValidatorTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,7 +155,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="AirportRepositoryTestSuite.testIsAirportInUse_withException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringValidatorTestSuite.shouldReturnTrueIfStringIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -163,9 +166,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.exception.AirportRepositoryTestSuite.testIsAirportInUse_withException&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.StringValidatorTestSuite.shouldReturnTrueIfStringIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,7 +179,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="WarehouseTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserValidatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,9 +190,33 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.exception.homework.WarehouseTestSuite&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserValidatorTestSuite.shouldNotValidateEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-advanced-tests:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTestSuite.shouldNotValidateEmail&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.WarehouseTestSuite" />
-        <item itemvalue="Gradle.AirportRepositoryTestSuite" />
-        <item itemvalue="Gradle.AirportRepositoryTestSuite.testIsAirportInUse_withException" />
-        <item itemvalue="Gradle.AirportRepositoryTestSuite.testIsAirportInUse" />
-        <item itemvalue="Application.WarehouseApp" />
+        <item itemvalue="Gradle.UserValidatorTestSuite" />
+        <item itemvalue="Gradle.UserValidatorTestSuite.shouldNotValidateEmail" />
+        <item itemvalue="Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase" />
+        <item itemvalue="Gradle.StringValidatorTestSuite" />
+        <item itemvalue="Gradle.StringValidatorTestSuite.shouldReturnTrueIfStringIsEmpty" />
       </list>
     </recent_temporary>
   </component>

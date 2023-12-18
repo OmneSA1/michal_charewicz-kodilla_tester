@@ -13,7 +13,8 @@ class WarehouseTestSuite {
         warehouse.addOrder(new Order("101"));
         warehouse.addOrder(new Order("102"));
 
-        // when & then
+        // when
+        // then
         assertThrows(OrderDoesntExistException.class, () -> warehouse.getOrder("999"));
     }
 }
