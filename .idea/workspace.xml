@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/NumberChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/UserValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/NumberCheckerTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringValidatorTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/UserValidatorTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/GamblingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/InvalidNumbersException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/BMIDataSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/GamblingMachineTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/PersonTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/gamblingMachineTestData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/stringWithLowerCase.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/exception/homework/WarehouseTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/exception/homework/WarehouseTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="Kotlin File" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -106,8 +106,8 @@
       <recent name="com.kodilla.collections.adv.exercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserValidatorTestSuite">
-    <configuration name="StringManipulatorTestSuite.shouldReverseStringWithLowerCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PersonTestSuite">
+    <configuration name="GamblingMachineTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +120,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite.shouldReverseStringWithLowerCase&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +131,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringValidatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PersonTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +144,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringValidatorTestSuite&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.PersonTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +155,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringValidatorTestSuite.shouldReturnTrueIfStringIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringManipulatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +168,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringValidatorTestSuite.shouldReturnTrueIfStringIsEmpty&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PersonTestSuite" />
+        <item itemvalue="Gradle.StringManipulatorTestSuite" />
+        <item itemvalue="Gradle.GamblingMachineTestSuite" />
         <item itemvalue="Gradle.UserValidatorTestSuite" />
         <item itemvalue="Gradle.UserValidatorTestSuite.shouldNotValidateEmail" />
-        <item itemvalue="Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase" />
-        <item itemvalue="Gradle.StringValidatorTestSuite" />
-        <item itemvalue="Gradle.StringValidatorTestSuite.shouldReturnTrueIfStringIsEmpty" />
       </list>
     </recent_temporary>
   </component>
