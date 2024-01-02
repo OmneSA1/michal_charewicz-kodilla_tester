@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/GamblingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/InvalidNumbersException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringSources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/BMIDataSources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/GamblingMachineTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/PersonTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/gamblingMachineTestData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/stringWithLowerCase.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/homework/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/homework/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/notification/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/execution_model/InvoiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/execution_model/homework/ShopTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/MobilePhoneTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/NotificationServiceTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,9 @@
         <task path="$PROJECT_DIR$/kodilla-collections-advanced">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/kodilla-advanced-tests">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -48,12 +54,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,15 +105,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.mockito" />
+      <recent name="com.kodilla.execution_model.homework" />
+      <recent name="com.kodilla.execution_model" />
       <recent name="com.kodilla.parametrized_tests.homework" />
       <recent name="com.kodilla.parametrized_tests" />
-      <recent name="com.kodilla.exception.homework" />
-      <recent name="com.kodilla.exception" />
-      <recent name="com.kodilla.collections.adv.exercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PersonTestSuite">
-    <configuration name="GamblingMachineTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.NotificationServiceTestSuite.subscribedClientShouldReceiveNotification">
+    <configuration name="MobilePhoneTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +126,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTestSuite&quot;" />
+            <option value="&quot;com.kodilla.mockito.MobilePhoneTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -131,7 +137,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PersonTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MobilePhoneTestSuite.shouldCallLaunchApplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +150,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.PersonTestSuite&quot;" />
+            <option value="&quot;com.kodilla.mockito.MobilePhoneTestSuite.shouldCallLaunchApplication&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +161,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringManipulatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MobilePhoneTestSuite.testVerificationFailure" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +174,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite&quot;" />
+            <option value="&quot;com.kodilla.mockito.MobilePhoneTestSuite.testVerificationFailure&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -179,7 +185,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserValidatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotificationServiceTestSuite.notSubscribedClientShouldNotReceiveNotification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -192,7 +198,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTestSuite&quot;" />
+            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite.notSubscribedClientShouldNotReceiveNotification&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,7 +209,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserValidatorTestSuite.shouldNotValidateEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotificationServiceTestSuite.subscribedClientShouldReceiveNotification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -216,7 +222,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTestSuite.shouldNotValidateEmail&quot;" />
+            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite.subscribedClientShouldReceiveNotification&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -229,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PersonTestSuite" />
-        <item itemvalue="Gradle.StringManipulatorTestSuite" />
-        <item itemvalue="Gradle.GamblingMachineTestSuite" />
-        <item itemvalue="Gradle.UserValidatorTestSuite" />
-        <item itemvalue="Gradle.UserValidatorTestSuite.shouldNotValidateEmail" />
+        <item itemvalue="Gradle.NotificationServiceTestSuite.subscribedClientShouldReceiveNotification" />
+        <item itemvalue="Gradle.NotificationServiceTestSuite.notSubscribedClientShouldNotReceiveNotification" />
+        <item itemvalue="Gradle.MobilePhoneTestSuite.testVerificationFailure" />
+        <item itemvalue="Gradle.MobilePhoneTestSuite.shouldCallLaunchApplication" />
+        <item itemvalue="Gradle.MobilePhoneTestSuite" />
       </list>
     </recent_temporary>
   </component>
