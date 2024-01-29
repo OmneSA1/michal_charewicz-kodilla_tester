@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SkypeMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/homework/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/homework/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplicationTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_dependency_injection/homework/CalculatorTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/EmailMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/FacebookMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/TextMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/homework/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/homework/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/homework/ShippingCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_dependency_injection/homework/ShippingCenterTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/SpringBasicRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/SpringBasicRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SkypeMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SkypeMessageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +54,8 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Kotlin File" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -111,26 +111,13 @@
       <recent name="com.kodilla.execution_model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTestSuite">
+  <component name="RunManager" selected="Gradle.ShippingCenterTestSuite">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.basic.dependency_injection.homework.Application" />
       <module name="kodilla-course.kodilla-spring-basic.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kodilla.spring.basic.dependency_injection.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleApplicationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.basic.dependency_injection.SimpleApplicationRunner" />
-      <module name="kodilla-course.kodilla-spring-basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.basic.dependency_injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,6 +139,30 @@
             <option value=":kodilla-spring-basic:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.spring.basic.spring_dependency_injection.homework.CalculatorTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShippingCenterTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-spring-basic:test" />
+            <option value="--tests" />
+            <option value="&quot;ShippingCenterTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalculatorTestSuite" />
+        <item itemvalue="Gradle.ShippingCenterTestSuite" />
         <item itemvalue="Gradle.SimpleApplicationTestSuite" />
+        <item itemvalue="Gradle.CalculatorTestSuite" />
         <item itemvalue="Gradle.SimpleApplicationTestSuite.shouldReturnCorrectMessage" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.SimpleApplicationRunner" />
       </list>
     </recent_temporary>
   </component>
