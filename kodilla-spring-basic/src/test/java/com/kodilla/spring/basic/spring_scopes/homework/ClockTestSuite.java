@@ -1,6 +1,5 @@
-package com.kodilla.spring.basic.spring_scope.homework;
+package com.kodilla.spring.basic.spring_scopes.homework;
 
-import com.kodilla.spring.basic.spring_scope.homework.Clock;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

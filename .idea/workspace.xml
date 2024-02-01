@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_scope/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/TaskTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/ClockTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_scope/homework/Clock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/ClockTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/ClockTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +49,8 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>

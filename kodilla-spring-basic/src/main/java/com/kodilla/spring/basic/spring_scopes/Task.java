@@ -1,4 +1,4 @@
-package com.kodilla.spring.basic.spring_scope;
+package com.kodilla.spring.basic.spring_scopes;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
