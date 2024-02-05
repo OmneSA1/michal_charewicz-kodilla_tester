@@ -9,3 +9,4 @@ include("kodilla-advanced-tests")
 include("kodilla-spring-basic")
 include("kodilla-spring-basic:com.kodilla.spring.basic.spring_dependency_injection")
 findProject(":kodilla-spring-basic:com.kodilla.spring.basic.spring_dependency_injection")?.name = "com.kodilla.spring.basic.spring_dependency_injection"
+include("kodilla-rest-api")

@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_scope/homework/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-rest-api/src/main/java/com/kodilla/rest/KodillaRestApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-rest-api/src/main/java/com/kodilla/rest/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-rest-api/src/main/java/com/kodilla/rest/domain/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-rest-api/src/main/java/com/kodilla/rest/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/Clock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/ClockTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_scope/homework/ClockTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +108,20 @@
       <recent name="com.kodilla.spring.basic.spring_dependency_injection.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ClockTestSuite (1)">
+  <component name="RunManager" selected="Application.KodillaRestApiApplication">
+    <configuration name="KodillaRestApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.rest.KodillaRestApiApplication" />
+      <module name="kodilla-course.kodilla-rest-api.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnimalFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -119,54 +136,6 @@
             <option value=":kodilla-spring-basic:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.spring.basic.spring_configuration.AnimalFactoryTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="CarFactoryTestSuite (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-spring-basic:test" />
-            <option value="--tests" />
-            <option value="&quot;CarFactoryTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="CarFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-spring-basic:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.spring.basic.spring_configuration.homework.CarFactoryTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -225,7 +194,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TaskTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ClockTestSuite.shouldCreateDifferentClocks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -238,7 +207,7 @@
           <list>
             <option value=":kodilla-spring-basic:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.spring.basic.spring_scopes.TaskTestSuite&quot;" />
+            <option value="&quot;com.kodilla.spring.basic.spring_scopes.homework.ClockTestSuite.shouldCreateDifferentClocks&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -249,13 +218,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="kodilla-course [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ClockTestSuite (1)" />
+        <item itemvalue="Application.KodillaRestApiApplication" />
+        <item itemvalue="Gradle.kodilla-course [dependencies]" />
+        <item itemvalue="Gradle.ClockTestSuite.shouldCreateDifferentClocks" />
         <item itemvalue="Gradle.ClockTestSuite" />
-        <item itemvalue="Gradle.TaskTestSuite" />
-        <item itemvalue="Gradle.CarFactoryTestSuite" />
-        <item itemvalue="Gradle.CarFactoryTestSuite (1)" />
+        <item itemvalue="Gradle.ClockTestSuite (1)" />
       </list>
     </recent_temporary>
   </component>
