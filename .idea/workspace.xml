@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57300a3-2894-4a1c-8a5b-d5c4d6e55175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-rest-api/src/test/java/com/kodilla/rest/controller/BookControllerMvcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-rest-api/src/test/java/com/kodilla/rest/controller/BookControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-rest-api/src/test/java/com/kodilla/rest/controller/ExternalApiRestAssuredTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-rest-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-rest-api/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,23 +64,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/micha/IdeaProjects/kodilla-course/kodilla-advanced-tests/src/main/java/com/kodilla/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "onboarding.tips.debug.path": "C:/Users/micha/IdeaProjects/kodilla-course/kodilla-advanced-tests/src/main/java/com/kodilla/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "editor.preferences.appearance"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.kodilla.spring.basic" />
@@ -99,7 +98,7 @@
       <recent name="com.kodilla.spring.basic.spring_configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BookControllerTest.shouldAddBook">
+  <component name="RunManager" selected="Gradle.ExternalApiRestAssuredTest.testUpdatePostShouldReturnUpdatedResponse">
     <configuration name="KodillaRestApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.rest.KodillaRestApiApplication" />
       <module name="kodilla-course.kodilla-rest-api.main" />
@@ -209,35 +208,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="kodilla-course [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ExternalApiRestAssuredTest.testUpdatePostShouldReturnUpdatedResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value=":kodilla-rest-api:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.rest.controller.ExternalApiRestAssuredTest.testUpdatePostShouldReturnUpdatedResponse&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ExternalApiRestAssuredTest.testUpdatePostShouldReturnUpdatedResponse" />
         <item itemvalue="Gradle.BookControllerTest.shouldAddBook" />
         <item itemvalue="Gradle.BookControllerMvcTest.shouldFetchBooks" />
         <item itemvalue="Gradle.BookControllerTest.shouldFetchBooks" />
         <item itemvalue="Application.KodillaRestApiApplication" />
-        <item itemvalue="Gradle.kodilla-course [dependencies]" />
       </list>
     </recent_temporary>
   </component>
