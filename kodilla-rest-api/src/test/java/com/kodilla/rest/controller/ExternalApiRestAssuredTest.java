@@ -33,7 +33,7 @@ public class ExternalApiRestAssuredTest {
                 .header("Content-Type", "application/json")
                 .body(updatedPostData)
                 .when()
-                .put("https://jsonplaceholder.typicode.com/posts/1")
+                .post("https://jsonplaceholder.typicode.com/posts/1")
                 .then()
                 .assertThat()
                 .statusCode(200)
