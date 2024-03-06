@@ -19,15 +19,15 @@ public class AllegroTestingApp {
         ChromeDriver driver = new ChromeDriver(options);
         driver.get("https://kodilla.com/pl/test/form");
 
-        WebElement dayCombo = driver.findElementByXPath("//*[@id=\"day\"]");
+        WebElement dayCombo = driver.findElementByCssSelector("select#day");
         Select daySelect = new Select(dayCombo);
         daySelect.selectByIndex(15);
 
-        WebElement monthCombo = driver.findElementByXPath("//*[@id=\"month\"]");
+        WebElement monthCombo = driver.findElementByCssSelector("#month");
         Select monthSelect = new Select(monthCombo);
         monthSelect.selectByValue("7");
 
-        WebElement yearCombo = driver.findElementByXPath("//*[@id=\"year\"]");
+        WebElement yearCombo = driver.findElementById("year");
         Select yearSelect = new Select(yearCombo);
         yearSelect.selectByValue("1996");
     }
